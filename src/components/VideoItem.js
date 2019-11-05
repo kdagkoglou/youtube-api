@@ -1,8 +1,8 @@
 import React from 'react';
 
-const VideoItem = ({video, onVideoClick}) => {
+const VideoItem = ({video, onClick}) => {
     return (
-        <li onClick={() => onVideoClick(video)} className="list-group-item d-flex justify-content-between align-items-center">
+        <li onClick={() => onClick(video)} className="list-group-item d-flex justify-content-between align-items-center">
             <div className="media">
                 <img src={video.snippet.thumbnails.default.url} className="img-fluid mr-3" alt={video.snippet.title} />
             </div>

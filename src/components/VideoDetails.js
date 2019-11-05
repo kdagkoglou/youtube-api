@@ -1,6 +1,8 @@
 import React from 'react';
 
-const VideoDetails = ({video}) => {
+const VideoDetails = ({error, video}) => {
+    if (error) return <div className="alert-danger mt-5">{error}</div>;
+    
     if (!video) return <div>Loading...</div>;
 
     const videoSrc = `https://youtube.com/embed/${video.id.videoId}?&autoplay=1`;
