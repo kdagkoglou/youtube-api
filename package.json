@@ -1,6 +1,6 @@
 {
-  "homepage": "https://kdagkoglou.github.io/youtubeapi",
-  "name": "youtubeapi",
+  "homepage": "https://kdagkoglou.github.io/youtube-api",
+  "name": "youtube-api",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

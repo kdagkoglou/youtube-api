@@ -4,6 +4,7 @@ import Checkbox from './Checkbox';
 import VideoList from './VideoList';
 import VideoDetails from './VideoDetails';
 import youtube from '../apis/youtube';
+import './App.css';
 
 class App extends React.Component {
     
